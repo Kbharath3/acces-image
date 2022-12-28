@@ -1,0 +1,25 @@
+<div class="main">
+<h4 style="color:rgb(13, 14, 13)">Create a new account</h4>
+<div class="input-fields">
+  <input name="First name" ngModel placeholder="First name" id="name" type="name" class="input-field" />
+</div>
+<br>
+<div class="input-fields">
+  <input name="last name" ngModel placeholder="last name" id="First name" type=" name" class="input-field" />
+</div>
+<br>
+<form #loginForm="ngForm"  (ngSubmit)="handleRegister(loginForm.value)">
+  <div class="input-fields">
+   <input name="email" ngModel placeholder="Email" id="email" type="email" class="input-field" />
+  </div>
+  <br>
+  <div class="input-fields">
+    <input name="password" ngModel placeholder="Password" id="password" type="password" class="input-field" />
+  </div>
+  <button > Sign Up</button>
+
+</form>
+</div>
+  
+
+

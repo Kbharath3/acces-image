@@ -1,0 +1,22 @@
+.input-fields{
+    margin: 7px;
+}
+
+.input-field{
+    width: 200px;
+    height: 25px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

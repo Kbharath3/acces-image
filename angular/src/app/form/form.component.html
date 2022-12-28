@@ -1,0 +1,13 @@
+<form #loginForm="ngForm" (ngSubmit)="handleLogin(loginForm.value)">
+ <div class="main">
+    <h1 style="color:rgb(13, 14, 13)">Welcome</h1>
+   <div class="input-fields">
+     <input name="email" ngModel placeholder="Email" id="email" type="email" class="input-field" />
+   </div>
+   <div class="input-fields">
+     <input name="password" ngModel placeholder="Password" id="password" type="password" class="input-field" />
+   </div>
+   <button >Sign in </button>
+   
+  </div>
+</form>
